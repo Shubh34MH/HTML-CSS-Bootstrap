@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Rowspan</title>
+    <style>
+      table {
+        width: 50%;
+      }
+      table th,
+      td {
+        border: 2px solid chocolate;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <!--First row-->
+      <tr>
+        <th rowspan="3">Depth of branch</th>
+        <th colspan="8">Hydraulic Cylinder</th>
+      </tr>
+      <!--2nd row-->
+      <tr>
+        <th rowspan="2">Maximum Horizontal Spacing</th>
+        <th rowspan="2">Maximum Vertcal Spacing</th>
+        <th colspan="3">Width of trench</th>
+      </tr>
+      <!--3rd row-->
+      <tr>
+        <td>8</td>
+        <td>5</td>
+        <td>2</td>
+      </tr>
+      <!--4th row-->
+      <tr>
+        <th>Over 4 Upto 10</th>
+        <td>8</td>
+        <td rowspan="4">4</td>
+        <td rowspan="4">2 in diameter</td>
+        <td rowspan="4">2 inch diameter</td>
+        <td rowspan="4">3 inch in diameter</td>
+      </tr>
+      <!--5th row-->
+      <tr>
+        <th>Over 10 Upto 15</th>
+        <td>8</td>
+      </tr>
+      <!--6th row-->
+      <tr>
+        <th>Over 15 Upto 20</th>
+        <td>7</td>
+      </tr>
+      <!--7th row-->
+      <tr>
+        <th>Over 20</th>
+        <td>Note 2</td>
+      </tr>
+    </table>
+  </body>
+</html>

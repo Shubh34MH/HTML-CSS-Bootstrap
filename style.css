@@ -1,0 +1,10 @@
+.cd {
+  border: 5px solid rebeccapurple;
+  padding: 0 50px;
+ /* margin: 50px 20px 30px 10px;*/
+  position: fixed;
+  top:0;
+  left:0;
+  bottom:90%;
+  right:0;
+}
